@@ -1,0 +1,244 @@
+body
+{
+	background-color: #3FB58E;
+}
+h1 
+{
+	text-shadow: 4px 4px 5px #777;
+	color: white;
+	
+}
+.panel-body h2
+{
+	text-shadow: 4px 4px 5px #777;
+	color: black;
+	cursor : pointer;
+}
+footer
+{
+	background-color: black;
+	border-radius: 3px;
+	padding-top : 1%;
+	padding-bottom : 1%;
+	color: white;
+	position : relative;
+	bottom : 0px;
+	width : 88%;
+	height : 50%;
+	text-align : center;
+	margin-left : 5%;
+	margin-top : 2%;
+}
+
+nav 
+{
+	border-radius: 6px;
+	padding: 0 !important;
+	border: 0.1px solid #606060;
+	background-color: #F0F0F0;
+	margin-bottom : 1%;
+}
+section .panel
+{
+	border: 0.1px solid #606060;
+}
+.panel-default > .panel-heading
+{
+	background-color: #337AB7;
+}
+.list-group-item
+{
+	background-color: #B0DAFF;
+	border: none;
+}
+.container
+{
+	/*margin-bottom: 10%;*/
+}
+.navbar-collapse >.navbar-nav  li a, .navbar-header  >.navbar-brand
+{
+	color: #333333;
+}
+.nav-pills > #Modif > a , .nav-pills > #Voir > a
+{
+	border-radius : 0;
+}
+.navbar
+{
+	margin : 0px;
+	padding : 0px;
+	background-color: #337AB7;
+	border : none;
+}
+.list-group >.activ
+{
+	background-color: #00ffd0;
+}
+#logo
+{
+	height : 150px;
+	width : 150px;
+}
+.login, .enregistrement
+{
+	background-color : rgba(0,0,0,0.5);
+	
+}
+.connexion
+{
+	background-image: url("http://localhost/Modelisation/vue/img_Mod/login.jpg");
+	background-position: center;
+	background-size : cover;
+}
+.valider
+{
+	width: 90%;
+	margin : 10% 0px 10% 5%;
+	background-color : #122b4b;
+	color : white;
+	border : 1px solid #122b4b;
+}
+.champ
+{
+	background : none;
+	color : white;
+	margin : 4% 0px 16% 0px; /*  haut, droite, bas, gauche */
+	border : none;
+	border-bottom : 1px solid white;
+	border-radius : 0;
+}
+.choixLR
+{
+	margin : 10% 0px 5% 0px;
+	width : 100%;
+}
+
+.p_login a
+{
+	text-decoration : none;
+	cursor : pointer;
+	color : #f4b083;
+	padding-bottom : 3px;
+	border-bottom : 1px solid #ed7d31;
+	margin-right : 10px;
+	margin-left : 10px;
+}
+.p_register a
+{
+	text-decoration : none;
+	cursor : pointer;
+	color : rgba(244,176,131,0.4); /* #f4b083 */
+	padding-bottom : 3px;
+	border-bottom : 1px solid rgba(244,176,131,0.4) ; /* #ed7d31 */
+}
+.p_login a, .p_register a, .p_login a:focus, .p_register a:focus
+{
+	text-decoration : none;
+}
+
+.p_oubli
+{
+	margin : 5% 0px 10% 0px;
+	/* cursor : pointer; */
+}
+.p_oubli a
+{
+	text-decoration : none;
+	color:#ffffff;
+}
+
+.PetM
+{
+	width : 90%;
+	height : 90%;
+}
+#envoi_lr >div >label
+{
+	color : rgba(255,255,255,0.8);
+	font-family : "Times New Roman";
+	/* text-shadow: 0 0 8px rgba(82, 168, 236, 0.8); */
+	word-wrap : break-word;
+}
+#envoi_lr >div > .averissement
+{
+	color : rgb(191, 68, 68);
+	font-family : "Times New Roman";
+	text-shadow: 0 0 8px rgba(255, 173, 0, 0.2);
+	word-wrap : break-word;
+}
+.obli small
+{
+	color : #09b301;
+}
+.obli
+{
+	margin-bottom : 5%;
+}
+
+.correct 
+{
+	background : none;
+	color : white;
+	margin : 4% 0px 16% 0px; /*  haut, droite, bas, gauche */
+	border : none;
+	border-bottom : 1px solid green; 
+	border-radius : 0;
+} 
+.correct:focus 
+{
+	border-bottom : 1px solid green; 
+	-moz-box-shadow: 0 0 8px rgba(68, 191, 68, 0.8);
+	-webkit-box-shadow: 0 0 8px rgba(68, 191, 68, 0.8);
+	box-shadow: 0 0 8px rgba(68, 191, 68, 0.8);
+} 
+.incorrect 
+{
+	background : none;
+	color : white;
+	margin : 4% 0px 16% 0px; /*  haut, droite, bas, gauche */
+	border : none;
+	border-bottom : 1px solid rgb(191, 68, 68);
+	border-radius : 0;
+} 
+.incorrect:focus 
+{
+	border-bottom : 1px solid rgb(191, 68, 68);
+	-moz-box-shadow: 0 0 8px rgba(191, 68, 68, 0.8);
+	-webkit-box-shadow: 0 0 8px rgba(191, 68, 68, 0.8);
+	box-shadow: 0 0 8px rgba(191, 68, 68, 0.8);
+}
+.succes
+{
+	color : #0000ff;
+	text-align : center;
+}
+.inscrit
+{
+	height : 100px;
+}
+.membre
+{
+	font-family : "Times New Roman";
+	border : 1px solid #7030a0;
+	margin : 1px 0px 15px 5%;
+	padding : 2px;
+	-moz-box-shadow: 0 0 8px rgba(191, 191, 191, 0.8);
+	-webkit-box-shadow: 0 0 8px rgba(191, 191, 191, 0.8);
+	box-shadow: 0 0 8px rgba(191, 191, 191, 0.8);
+	font-size : 20px;
+}
+.info
+{
+	color : #c45911;
+	text-decoration : underline;
+	margin-left: 1%;
+}
+.modifiable 
+{
+	background-color : white;
+	border : none;
+}
+#modif td
+{
+	border : 0px solid white;
+}
